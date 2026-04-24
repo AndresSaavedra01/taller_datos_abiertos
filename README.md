@@ -45,8 +45,9 @@ lib/
 *   **Listado:** Muestra una lista de elementos obtenidos de la API con scroll infinito.
 *   **Detalle:** Información técnica y detallada de un elemento específico.
 
-![Dashboard Preview](dashboard_preview.png)
-
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
 ### Manejo de Estados:
 La aplicación maneja tres estados fundamentales de manera reactiva:
 *   **Loading:** Se muestra un indicador de carga mientras se espera la respuesta de la API.
