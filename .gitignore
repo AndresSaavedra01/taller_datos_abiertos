@@ -1,2 +1,50 @@
+# https://dart.dev/guides/libraries/private-files
+# Created by https://www.toptal.com/developers/gitignore/api/flutter,dart,visualstudiocode,androidstudio,intellij
 
+### Android Studio ###
+# IntelliJ project files
 .idea
+*.iml
+*.iws
+
+# Android Studio user-specific configuration
+.idea/libraries/
+.idea/modules.xml
+.idea/runConfigurations.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/shelf
+
+### Android Studio Patch ###
+# Important: .idea/icon_loader_config.xml must be check-in
+
+### Dart ###
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+### Flutter ###
+/.flutter-plugins
+/.flutter-plugins-dependencies
+/.dart_tool/
+/build/
+
+# Symbolication related files
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+### VS Code ###
+.vscode/
+
+### Operating Systems ###
+.DS_Store
+Thumbs.db
+
+### Local Environment ###
+.env
+.env.*
+!.env.example
